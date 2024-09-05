@@ -15,6 +15,8 @@ function App() {
       setCounter(counter)
       console.log("Value : " + counter)
     } else {
+      counter = 20
+      setCounter(counter)
       alert("Counter can't go above 20")
     }
   }
@@ -24,6 +26,8 @@ function App() {
       setCounter(counter)
       console.log("Value : " + counter)
     } else {
+      counter = 0
+      setCounter(counter)
       alert("Counter can't go below 0")
 
     }
