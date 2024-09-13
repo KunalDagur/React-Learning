@@ -1,0 +1,8 @@
+.input-amount::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    display: none;
+}
+
+body {
+    background-image: url(currency-converter-bg.jpg);
+}
